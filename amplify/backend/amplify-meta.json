@@ -52,5 +52,23 @@
       },
       "lastPushDirHash": "ooPr61IxT/o1O/ChWV/TLyI5ToY="
     }
+  },
+  "api": {
+    "proyectocloud": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
   }
 }
