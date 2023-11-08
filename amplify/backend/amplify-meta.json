@@ -40,7 +40,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyc25972b170ac4-staging-02559-deployment/amplify-cfn-templates/auth/proyectocloud7aa149d0-cloudformation-template.json",
         "logicalId": "authproyectocloud7aa149d0"
       },
-      "lastPushTimeStamp": "2023-11-08T00:43:53.246Z",
+      "lastPushTimeStamp": "2023-11-08T01:44:15.667Z",
       "output": {
         "UserPoolId": "us-east-1_ufzxH8Kg8",
         "AppClientIDWeb": "696sf8rm6hir9sb3a6pcvgsas3",
@@ -67,8 +67,17 @@
             }
           },
           "additionalAuthenticationProviders": []
-        }
-      }
+        },
+        "GraphQLAPIIdOutput": "pnw7732pcjchdbqkuhiuzejl7y",
+        "GraphQLAPIEndpointOutput": "https://c7bm2dsixjeqfbkimyqlp5rex4.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-63q6xxmf5bg2znuanosknosrbq"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyc25972b170ac4-staging-02559-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiproyectocloud"
+      },
+      "lastPushTimeStamp": "2023-11-08T01:44:20.594Z",
+      "lastPushDirHash": "kn2xuBfBC4ScOkLvXm/xyJ4eoMo="
     }
   }
 }
